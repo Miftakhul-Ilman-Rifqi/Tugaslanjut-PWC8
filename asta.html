@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Asta - MIR Site</title>
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="image/faviconsm.png" />
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"
+        style="background-image: url(image/waveup.png);background-size: cover;box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.13);border-radius: 0 0 30px 30px;">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="logoku">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                style="background-color: rgb(255, 255, 255); border-radius: 16px; padding: 5px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-home"></i>
+                                Home</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio.html">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-id-card"></i> My
+                                Bio</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logsign.html">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-sign-in-alt"></i>
+                                Login / Sign Up</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown" style="padding-top: 8px;">
+                        <a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-angle-double-down"></i> Other
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                            style="box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.15);">
+                            <li><a class="dropdown-item" href="kasir.html">My Cashier App</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- konten -->
+
+    <div class="container ">
+        <div style="padding-top: 100px;margin-top: calc(var(--bs-gutter-y) * -1);">
+
+            <section
+                style="box-shadow: 0 9px 30px 6px rgba(0, 0, 0, 0.15);;padding: 15px;border-radius: 30px;background-color: rgb(255, 255, 255);">
+                <!-- carousel slide -->
+                <div id="carouselExampleIndicators" class="carousel slide justify-content-center"
+                    data-bs-ride="carousel" style="width: 80%;left: 10%;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/asta1.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="asta1"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/asta2.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="asta2"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/asta3.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="asta3"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <p class="fw-light fs-3 text-center">-BLACK CLOVER-</p>
+                <p class="fw-bold fs-1 text-center">ASTA STARIA</p>
+
+                <p class="lh-base"><br><b>Asta Staria 「アスタ・スタリア Asuta Sutaria」</b>, adalah anak yatim piatu yang
+                    dibesarkan di bawah asuhan
+                    gereja di desa Hage, setelah ibunya meninggalkannya di depan pintu gereja. Setelah menginjak 15
+                    tahun, Asta menerima grimoire semanggi berdaun lima dengan iblis Anti Sihir di dalamnya. Dia
+                    bergabung di Ksatria Sihir dari Kerajaan Semanggi, pasukan dari Banteng Hitam dan menjadi
+                    Ksatria
+                    Sihir Junior Kelas 3, serta menjadi anggota sementara Ksatria Kerajaan.</p>
+
+                <p class="h4 fw-bolder text-decoration-underline">PENAMPILAN</p>
+                <p class="lh-base">Asta adalah pemuda bertubuh pendek dengan otot yang berotot. Dia memiliki mata
+                    hijau
+                    dan rambut pirang abu berantakan dengan satu untai menonjol ke atas dari tengah kepalanya.
+                    Dia
+                    menyimpan rambutnya dengan ikat kepala hitam, yang memiliki lambang Banteng Hitam berwarna
+                    emas dan
+                    memiliki bintang empat berwarna merah dengan tiga jahitan di bagian belakangnya. Dia
+                    memiliki banyak
+                    bekas luka di sekujur tubuhnya dari latihan fisik yang berat, dan bekas luka besar di
+                    perutnya di
+                    mana salah satu Harpe milik Mars menusuknya. </p>
+                <p class="lh-base">Pakaian umum Asta terdiri dari tunik putih polos dengan kerah berbentuk V di
+                    bawah
+                    jaket biru tua yang lengannya meluas sampai ke siku. Dia olahraga sepasang celana pendek
+                    yang cocok
+                    yang memiliki tanda jahitan di sisi kiri. Celananya juga meluas di bawah lututnya. Sepatunya
+                    terbuat
+                    dari dua kain yang berbeda, bagian-bagian yang menutupi pergelangan kakinya, solnya memiliki
+                    warna
+                    yang sama dengan jaket dan celana dalamnya. Bagian-bagian yang menutupi jari-jari kakinya
+                    berwarna
+                    putih, tanda jahitan vertikal melintang dari jembatan ke jari kakinya. Ketika dia mengirim
+                    anti-sihirnya ke tubuhnya, ia mengelilingi bagian kanan tubuhnya dengan bahan hitam dan dia
+                    mendapatkan transformasi iblis parsial. </p>
+                <p class="lh-base">Setelah menerima grimoire-nya, Asta memakai sebuah kantong yang diikatkan pada
+                    sabuk
+                    kulit berwarna coklat. Selain itu, sebagai anggota Banteng Hitam, dia memakai jubah tanda
+                    tangan
+                    skuadnya, yang hitam dan pendek dengan pemangkasan emas dan menutupi bagian atas tubuhnya.
+                    Ini juga
+                    memiliki tudung dan sebuah tombol berwarna emas yang terletak di sisi kanan untuk
+                    menahannya,
+                    sementara sisi kiri menampilkan lencana skuad. </p>
+                <class class="lh-base">Setelah enam bulan pelatihan di Kerajaan Hati, Asta menjadi lebih
+                    berotot. Selain itu,
+                    ia mengenakan kemeja hitam hitam ketat yang menutupi bahu, lengan atas, dan sebagian
+                    dadanya.
+                    Terbuka di tengah dan memiliki semanggi emas di sisi kanan. Lebih dari ini, ia memakai jubah
+                    jubah
+                    regu versi modifikasi yang tersampir di bahu kirinya dan diikat dengan tali merah yang
+                    melingkari
+                    lehernya. Ikat kepalanya memiliki tiga bintang berwarna merah, berujung empat di sisi kanan
+                    depan
+                    dan lencana Banteng Hitam di sebelah kiri. Dia juga mengenakan sepasang celana panjang hitam
+                    berpinggang tinggi yang diselipkan ke sepatu bot setinggi lutut dan ikat pinggang besar
+                    berwarna
+                    cokelat, dari mana menggantung tas grimoire-nya.
+                    <p class="lh-base">Setelah melakukan tawar-menawar dengan Liebe, lengan kanan Asta berubah
+                        permanen
+                        menjadi hitam dengan corak merah darah, dan jari-jari tangannya menjadi merah darah
+                        dengan corak
+                        hitam dan kuku hitam. Setelah menempa kontrak yang setara dengan Liebe, tanda berwarna
+                        gelap muncul
+                        di sekitar pergelangan tangan kirinya. Penandaannya adalah dua garis tipis berduri
+                        dengan tulisan
+                        iblis di antara garis-garis tersebut.</p>
+                    <p class="lh-base">Dalam bentuk Asta Hitam-nya, lengan kanannya ditutupi dengan Anti Sihir
+                        hitam, sayap
+                        hitam tumbuh dari bahu kanannya, tanduk hitam yang disebut kecambah Weg dari sisi kanan
+                        kepalanya,
+                        bagian atas kepalanya gigi taring kanan memanjang, dan mata kanannya memerah dengan
+                        pupil menjadi
+                        seperti celah. Saat dia menggambar lebih banyak Anti Sihir, lebih banyak tubuhnya
+                        tertutup, tanduk
+                        tambahan terbentuk di kepalanya, gigi kaninus kanan bawahnya memanjang, kanannya tangan
+                        dan kaki
+                        berubah menjadi cakar, kecambah sayap yang lebih kecil dari bahu kirinya, dan ekor
+                        tumbuh dari
+                        punggungnya. Setelah melakukan tawar-menawar dengan iblis, lengan kanan Asta tampak
+                        berkerut dan
+                        jari-jarinya cakar dan warnanya lebih terang dari sisa tangannya.</p>
+
+
+                    <p class="h4 text-decoration-underline"><b>KEPRIBADIAN</b></p>
+                    <p class="lh-base">Asta umumnya ceria dan hiperaktif. Dia cenderung berteriak untuk
+                        mengungkapkan
+                        pemikirannya dan mengungkapkan tujuannya, terlepas dari pendapat orang lain, seperti
+                        yang terlihat
+                        saat dia mengungkapkan tujuannya untuk menjadi seorang Kaisar Sihir selama ujian
+                        masuk Ksatria
+                        Sihir, dimana dia mengatakan kepada orang lain yang tidak setuju dengan dia untuk
+                        diam. Kepentingan
+                        kuat kepada Yami Sukehiro cukup untuk merekrut dia ke dalam barisannya. Keteguhannya
+                        yang kuat juga
+                        membawa dia untuk memiliki kemauan yang kuat untuk tidak pernah menyerah dan tetap
+                        berdiri selama
+                        pertempuran yang keras, seperti yang diakui oleh Magna Swing.</p>
+                    <p class="lh-base">Karena dibesarkan di wilayah Ditinggalkan, Asta sering menerima
+                        opini
+                        keras dan
+                        penghinaan dari hampir semua orang yang dia temui. Hal ini membuat Asta memiliki
+                        sifat sedikit
+                        sarkastik saat ia mencoba membela diri. Tapi, setelah mendapat opini keras dari
+                        orang lain, Asta
+                        telah mengembangkan kekebalan terhadap mereka karena dia dapat dengan mudah
+                        menyingkirkannya tanpa
+                        terlalu kesal. Namun, Asta masih kesal saat orang lain sangat menghina
+                        rekan-rekannya; dia tidak
+                        akan ragu untuk menghadapi mereka saat dia mencoba membela teman-temannya.</p>
+
+
+                    <p class="h4 text-decoration-underline"><b>KEMAMPUAN</b></p>
+                    <ul>
+                        <li>
+                            <p class="lh-base"><b>Pendekar Pedang</b>: Asta awalnya memiliki gaya yang kasar
+                                karena memiliki
+                                pedang yang tidak biasa dan hanya menerima pelatihan dasar dari Fanzell
+                                Kruger. Seiring
+                                waktu ia mengembangkan keterampilan yang lebih besar melalui pengalaman
+                                pertempuran, pedang
+                                tambahan, dan penginderaan ki. Asta telah menjadi pendekar pedang
+                                berkemampuan tinggi
+                                setelah banyak pertarungan melawan atau dengan pendekar pedang sihir
+                                seperti Mars, Kiato,
+                                Fanzell, Licht, dan Yami, karena ia melawan dan mengalahkan Liebe, yang
+                                menggunakan ketiga
+                                Pedang Anti-Sihir.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="lh-base"><b>Tanpa Kekuatan Sihir</b>: Asta tidak memiliki mana dan
+                                karenanya tidak dapat
+                                menggunakan sihir. Ini memungkinkan Asta menggunakan Anti Sihir tanpa
+                                menderita efek melemah
+                                karena dia tidak memiliki sihir untuk dikeringkan. Ini juga membuatnya
+                                tidak terdeteksi oleh
+                                pendeteksi mana, dan kebal terhadap zat yang menguras kehidupan dunia
+                                bawah.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="lh-base"><b>Kepemilikan Iblis</b>: Sebagai pengguna dari grimoire semanggi
+                                berdaun lima, Asta
+                                terhubung ke Liebe, yang memiliki Anti Sihir, yang memberinya akses ke
+                                energi ini. Semakin
+                                banyak kekuatan yang dia gunakan, semakin mirip iblis penampilannya.
+                                Asta setuju untuk
+                                melakukan tawar-menawar dengan iblis: lengan kanannya ditukar dengan
+                                kekuatan iblis yang
+                                lebih banyak. Peningkatan kekuatan ini memungkinkan dia untuk meniadakan
+                                Keistimewaan
+                                Gravitasi, dan untuk melapisi senjata tambahan dalam Anti Sihir; Namun,
+                                ia dibatasi hingga
+                                50 detik penggunaannya. Setelah menjalani Ritual Pengikat Iblis, Asta
+                                membuat kontrak dengan
+                                Liebe untuk berbagi kekuasaan secara setara.s Setelah menempa kontrak
+                                dan pelatihan ini
+                                selama beberapa hari, Asta dan Liebe mendapatkan kemampuan untuk
+                                menggunakan kekuatan
+                                Penggabungan, yang sangat meningkatkan kemampuan Anti Sihir mereka.
+                                Namun, mereka berdua
+                                menunjukkan bahwa Gabungan mereka belum sempurna, dan hanya berlangsung
+                                sekitar 5 menit.</p>
+                        </li>
+                    </ul>
+
+                    <p class="h4 text-decoration-underline"><b>PERALATAN</b></p>
+                    <ul>
+                        <li>
+                            <p class="lh-base"><b>Grimoire</b>: Asta memegang daun semanggi lima daun, yang ia
+                                terima saat bertarung
+                                dengan Revchi. Grimoire compang-camping dan tertutup kotoran, lencana
+                                semanggi lima daun
+                                hitam di bagian tengah penutup depannya. Simbol semanggi ini sebagian
+                                besar tidak terlihat
+                                karena kotoran yang menutupinya, membuat sebagian besar (termasuk Asta)
+                                berasumsi bahwa
+                                grimoire memiliki sihir yang tidak biasa namun tidak biasa. Grimoire-nya
+                                dulunya adalah
+                                grimoire semanggi berdaun empat milik Licht, sebelum dirusak oleh Zagred
+                                dan dihuni oleh
+                                iblis lainnya.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="lh-base"><b>Pedang Anti Sihir</b>: Asta mampu memanggil pedang yang
+                                disalurkan dengan Anti
+                                Sihir dari grimoire-nya. Dia menggunakan pedang ini untuk berbagai
+                                pelanggaran yang dapat
+                                membatalkan sihir. Pedang dapat memotong melalui sihir, tetapi direduksi
+                                menjadi senjata
+                                tumpul saat digunakan untuk menyerang apa pun.</p>
+                        </li>
+                    </ul>
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+    <!-- footer -->
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,64L40,85.3C80,107,160,149,240,176C320,203,400,213,480,197.3C560,181,640,139,720,122.7C800,107,880,117,960,149.3C1040,181,1120,235,1200,250.7C1280,267,1360,245,1400,234.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+
+        <p class="text-center" style="background-color: #0099ff;color: #fff;margin-bottom: 0rem;margin-top: -2px;"><i
+                class="far fa-compass fa-spin"></i> <b><u>M I R Site.</i></u></b> <i class="fas fa-fan fa-spin"></i></p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <a href="#" class="ignielToTop"></a>
+</body>
+
+</html>

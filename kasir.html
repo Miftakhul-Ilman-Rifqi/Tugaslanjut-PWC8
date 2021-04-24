@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Toko KR. AMAT - MIR Site</title>
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="image/faviconsm.png" />
+
+
+    <script language="JavaScript" type="text/JavaScript">
+
+        function ShowPage(page) {
+
+var Div = document.getElementById('halaman');
+var html = '';
+if (page == 1) {
+    html += '<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"style="background-image: url(image/waveup.png);background-size: cover;box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.13);border-radius: 0 0 30px 30px;"><div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logoku"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"style="background-color: rgb(255, 255, 255); border-radius: 16px; padding: 5px;"><ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page"><button type="button" class="btn btn-outline-primary "><i class="fas fa-home"></i>Home</button></a></li><li class="nav-item"><a class="nav-link" href="bio.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-id-card"></i> MyBio</button></a></li><li class="nav-item"><a class="nav-link" href="logsign.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-sign-in-alt"></i> Login / Sign Up</button></a></li><li class="nav-item dropdown" style="padding-top: 8px;"><a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuLink"data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-angle-double-down"></i> Other</a><ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.15);"><li><a class="dropdown-item" href="kasir.html">My Cashier App</a></li></ul></li></ul><form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success" type="submit">Search</button></form></div></div></nav><!-- konten --><div class="container"><div style="padding-top: 100px;margin-top: calc(var(--bs-gutter-y) * -1);"><section style="box-shadow: 0 9px 30px 6px rgba(0, 0, 0, 0.15);;padding: 15px;border-radius: 30px;background-color: rgb(255,255, 255);"><!-- awalan masuk --><div class="items-center justify-center text-center"><p class="fw-bold fs-1 text-primary text-decoration-underline">WELCOME TO OUR STORE</p><i class="fas fa-store-alt fa-10x "></i></div><br><div class="items-center justify-center text-center"><button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="Press to continue" onclick="ShowPage(2);">OK</button></div></section></div></div>';
+    
+
+} else { 
+    // navbar
+    html += '<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"style="background-image: url(image/waveup.png);background-size: cover;box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.13);border-radius: 0 0 30px 30px;"><div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logoku"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"style="background-color: rgb(255, 255, 255); border-radius: 16px; padding: 5px;"><ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page"><button type="button" class="btn btn-outline-primary "><i class="fas fa-home"></i>Home</button></a></li><li class="nav-item"><a class="nav-link" href="bio.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-id-card"></i> MyBio</button></a></li><li class="nav-item"><a class="nav-link" href="logsign.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-sign-in-alt"></i> Login / Sign Up</button></a></li><li class="nav-item dropdown" style="padding-top: 8px;"><a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuLink"data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-angle-double-down"></i> Other</a><ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.15);"><li><a class="dropdown-item" href="kasir.html">My Cashier App</a></li></ul></li></ul><form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success" type="submit">Search</button></form></div></div></nav>';
+
+    // konten.kasir
+    html += '<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"style="background-image: url(image/waveup.png);background-size: cover;box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.13);borderradius: 0 0 30px 30px;"><div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logoku"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"style="background-color: rgb(255, 255, 255); border-radius: 16px; padding: 5px;"><ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page"><button type="button" class="btn btn-outline-primary "><i class="fas fa-home"></i>Home</button></a></li><li class="nav-item"><a class="nav-link" href="bio.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-id-card"></i> MyBio</button></a></li><li class="nav-item"><a class="nav-link" href="logsign.html"><button type="button" class="btn btn-outline-primary "><i class="fas fa-sign-in-alt"></i>Login / Sign Up</button></a></li><li class="nav-item dropdown" style="padding-top: 8px;"><a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuLink"data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-angle-double-down"></i> Other</a><ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.15);"><li><a class="dropdown-item" href="kasir.html">My Cashier App</a></li></ul></li></ul><form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success" type="submit">Search</button></form></div></div></nav><!-- konten --><div class="container"><div style="padding-top: 100px;margin-top: calc(var(--bs-gutter-y) * -1);"><section style="box-shadow: 0 9px 30px 6px rgba(0, 0, 0, 0.15);;padding: 15px;border-radius: 30px;background-color: rgb(255,255, 255);"><audio hidden autoplay loop><source src="audio/hmbn.mp3" type="audio/mpeg">Browsermu tidak mendukung tag audio</audio><p class="fw-bold fs-1 text-primary text-center text-decoration-underline">KR. AMAT SHOP</p><form action="#" name="formkasir"><table class="table table-bordered table-striped table-hover "><thead class="table-primary"><tr><th scope="col">#</th><th scope="col">PRODUCT</th><th scope="col">Unit price</th><th scope="col">Purchase amount</th></tr></thead><tbody><tr><th scope="row">1</th><td><p class="lh-base">Seblak Kering</p><video controls loop width="100px"><source src="video/seblakkering.mp4" type="video/mp4">Browser tidak mendukung video</video></td><td><div class="input-group mb-3"><span class="input-group-text" id="basic-addon1">Rp</span><input type="text" name="satu" class="form-control"style="background-color: #f4f4f4;" value="30000" disabled="disabled"></div></td><td><div class="input-group mb-3"><input type="number" name="seblaka" class="form-control" value="0"oninput="warung()"><span class="input-group-text" id="basic-addon1">pcs</span></div></td></tr><tr><th scope="row">2</th><td><p class="lh-base">Doritos</p><video controls loop width="100px"><source src="video/doritos.mp4" type="video/mp4">Browser tidak mendukung video</video></td><td><div class="input-group mb-3"><span class="input-group-text" id="basic-addon1">Rp</span><input type="text" name="dua" class="form-control"style="background-color: #f4f4f4;" value="4000" aria-label="Username"aria-describedby="basic-addon1" disabled="disabled"></div></td><td><div class="input-group mb-3"><input type="number" name="doritosa" class="form-control " value="0"oninput="warung()"><span class="input-group-text" id="basic-addon1">pcs</span></div></td></tr><tr><th scope="row">3</th><td><p class="lh-base">Kopi Kapal Api</p><video controls loop width="100px"><source src="video/kopi.mp4" type="video/mp4">Browser tidak mendukung video</video></td><td><div class="input-group mb-3"><span class="input-group-text" id="basic-addon1">Rp</span><input type="text" name="tiga" class="form-control"style="background-color: #f4f4f4;" value="15000" aria-label="Username"aria-describedby="basic-addon1" disabled="disabled"></div></td><td><div class="input-group mb-3"><input type="number" name="kopia" class="form-control " value="0"oninput="warung()"><span class="input-group-text" id="basic-addon1">pcs</span></div></td></tr><tr><th scope="row">4</th><td><p class="lh-base">Chocolate</p><video controls loop width="100px"><source src="video/choco.mp4" type="video/mp4">Browser tidak mendukung video</video></td><td><div class="input-group mb-3"><span class="input-group-text" id="basic-addon1">Rp</span><input type="text" name="empat" class="form-control"style="background-color: #f4f4f4;" value="13000" aria-label="Username"aria-describedby="basic-addon1" disabled="disabled"></div></td><td><div class="input-group mb-3"><input type="number" name="chocoa" class="form-control " value="0"oninput="warung()"><span class="input-group-text" id="basic-addon1">pcs</span></div></td></tr><<tr><th scope="row">5</th><td><p class="lh-base">Bubble Gum</p><video controls loop width="100px"><source src="video/bigbabbol.mp4" type="video/mp4">Browser tidak mendukung video</video></td><td><div class="input-group mb-3"><span class="input-group-text" id="basicaddon1">Rp</span><input type="text" name="lima" class="form-control"style="background-color: #f4f4f4;" value="2000"aria-label="Username" aria-describedby="basic-addon1"disabled="disabled"></div></td><td><div class="input-group mb-3"><input type="number" name="bubblea" class="form-control " value="0"oninput="warung()"><span class="input-group-text" id="basicaddon1">pcs</span></div></td></tr></tbody><table class="table caption-top"><tbody><tr><th scope="row" colspan="2"></th><th></th><th class="text-center">Total number</th><th><div class="input-group mb-3" style="width: 100%;"><span class="input-group-text" id="basicaddon1">Rp</span><input type="text" name="TotalBayar" class="form-control"style="background-color: #f4f4f4;" value="-"disabled="disabled"></div></th></tr><tr><th scope="row" colspan="2"></th><th></th><th class="text-center">Discount</th><th><div class="input-group mb-3" style="width: 100%;"><span class="input-group-text" id="basic-addon1">Rp</span><input type="text" name="Diskon" class="form-control"style="background-color: #f4f4f4;" value="-" disabled="disabled"></div></th><tr><th scope="row" colspan="2"></th><th></th><th class="text-center">Total Pay</th><th><div class="input-group mb-3" style="width: 100%;"><span class="input-group-text" id="basicaddon1">Rp</span><input type="text" name="JumlahBayar" class="form-control"style="background-color: #f4f4f4;" value="-"disabled="disabled"></div></th></tr><tr><th scope="row" colspan="2"></th><th></th><th class="text-center">Payment</th><th><div class="input-group mb-3" style="width: 100%;"><span class="input-group-text" id="basic-addon1">Rp</span><input type="number" name="bayar" class="form-control"style="background-color: #ffffff;" value="0" oninput="warung()"></div></th></tr><tr><th scope="row" colspan="2"></th><th></th><th class="text-center">Change</th><th><div class="input-group mb-3" style="width: 100%;"><span class="input-group-text" id="basic-addon1">Rp</span><input name="kmblian" class="form-control"style="background-color: #f4f4f4;" value="-" disabled="disabled"></div></th></tr><br><tr><th scope="row" colspan="2"></th><th></th><th class="text-center"><button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="left" onclick="awal()" value="RESET" title="Press to reset">RESET</button></th><th><button type="button" class="btn btn-primary" data-bs-toggle="tooltip"data-bs-placement="right" onclick="window.print()" value="Print"title="Press to print">PRINT</button></th></tr></tbody></table></table></form><p class="fw-light text-center fst-italic">* Get adiscount of Rp. 15,000 if the totalpurchases exceeding Rp. 100,000 </p></section></div></div>';
+    
+
+}
+Div.innerHTML = html;
+}
+
+        function warung() {
+            var catat = document.formkasir;
+            var seblak = parseInt(catat.satu.value) * parseInt(catat.seblaka.value);
+            var doritos = parseInt(catat.dua.value) * parseInt(catat.doritosa.value);
+            var kopi = parseInt(catat.tiga.value) * parseInt(catat.kopia.value);
+            var choco = parseInt(catat.empat.value) * parseInt(catat.chocoa.value);
+            var bubble = parseInt(catat.lima.value) * parseInt(catat.bubblea.value);
+            var hargasemua = seblak + doritos + kopi + choco + bubble;
+            if (hargasemua > 100000) {
+                catat.TotalBayar.value = hargasemua;
+                catat.Diskon.value = 15000;
+                catat.JumlahBayar.value = hargasemua - parseInt(catat.Diskon.value);
+            } else {
+                catat.TotalBayar.value = hargasemua;
+                catat.Diskon.value = 0;
+                catat.JumlahBayar.value = hargasemua;
+            }
+            var bayaran = parseInt(catat.bayar.value);
+            catat.kmblian.value = bayaran - parseInt(catat.JumlahBayar.value);
+        }
+
+        function awal() {
+            document.formkasir.reset();
+        }
+    </script>
+
+</head>
+
+<body onload="ShowPage(1);">
+    <!-- navbar -->
+
+
+    <!-- konten.kasir -->
+
+
+    <p id="halaman"></p>
+
+    <hr>
+    <!-- footer -->
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,64L40,85.3C80,107,160,149,240,176C320,203,400,213,480,197.3C560,181,640,139,720,122.7C800,107,880,117,960,149.3C1040,181,1120,235,1200,250.7C1280,267,1360,245,1400,234.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+        <p class="text-center" style="background-color: #0099ff;color: #fff;margin-bottom: 0rem;margin-top: -2px;"><i
+                class="far fa-compass fa-spin"></i> <b><u>M I R Site.</i></u></b> <i class="fas fa-fan fa-spin"></i></p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <a href="#" class="ignielToTop"></a>
+</body>
+
+</html>

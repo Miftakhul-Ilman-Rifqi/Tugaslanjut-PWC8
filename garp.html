@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Garp - MIR Site</title>
+    <!--fav-icon-->
+    <link rel="shortcut icon" href="image/faviconsm.png" />
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary"
+        style="background-image: url(image/waveup.png);background-size: cover;box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.13);border-radius: 0 0 30px 30px;">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="logoku">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                style="background-color: rgb(255, 255, 255); border-radius: 16px; padding: 5px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-home"></i>
+                                Home</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio.html">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-id-card"></i> My
+                                Bio</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logsign.html">
+                            <button type="button" class="btn btn-outline-primary "><i class="fas fa-sign-in-alt"></i>
+                                Login / Sign Up</button>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown" style="padding-top: 8px;">
+                        <a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-angle-double-down"></i> Other
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                            style="box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.15);">
+                            <li><a class="dropdown-item" href="kasir.html">My Cashier App</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- konten -->
+
+    <div class="container ">
+        <div style="padding-top: 100px;margin-top: calc(var(--bs-gutter-y) * -1);">
+
+            <section
+                style="box-shadow: 0 9px 30px 6px rgba(0, 0, 0, 0.15);;padding: 15px;border-radius: 30px;background-color: rgb(255, 255, 255);">
+                <!-- carousel slide -->
+                <div id="carouselExampleIndicators" class="carousel slide justify-content-center"
+                    data-bs-ride="carousel" style="width: 80%;left: 10%;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/garp1.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="garp1"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/garp2.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="garp2"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/garp3.jpg" class="img-fluid mx-auto d-block d-block w-100" alt="garp3"
+                                style="box-shadow: 1px 12px 6px rgba(4, 4, 4, 0.15);">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <p class="fw-light fs-3 text-center">-ONE PIECE-</p>
+                <p class="fw-bold fs-1 text-center">MONKEY D. GARP</p>
+
+                <p class="lh-base"><br>
+                    <b>Monkey D. Garp (モンキー・D・ガー Monkī D. Gāpu)</b> , dikenal sebagai pahlawan Angkatan Laut
+                    legendaris
+                    Garp
+                    adalah mantan Wakil Laksamana Angkatan Laut dan kakek dari karakter utama cerita One Piece,
+                    Monkey
+                    D.
+                    Luffy sekaligus ayah kandung dari seorang pemimpin Pasukan Revolusioner
+                    Monkey D. Dragon. Ia mengundurkan diri dari jabatannya sebagai Wakil Laksamana bersamaan dengan
+                    Sengoku
+                    setelah perang berakhir. Bersama Sengoku, Whitebeard dan Shiki, Garp merupakan tokoh utama yang
+                    berpengaruh saat Raja Bajak Laut Gol D. Roger masih hidup.</p>
+
+
+                <p class="h4 fw-bolder text-decoration-underline">PENAMPILAN</p>
+
+                <p class="lh-base">Garp itu tinggi, kulit kecokelatan, dada luas, orang tua berotot tinggi yang
+                    berjenggot dan memiliki bekas luka di mata kirinya.
+                    Dalam anime, warna matanya yang diungkapkan menjadi biru dan rambutnya abu-abu, tidak seperti
+                    manga,
+                    di mana itu adalah putih. Kenyataannya ia telah muncul di Romance Dawn, Versi 2 dan wajahnya
+                    terekspos, dia mengenakan topeng anjing ketika ia pertama kali diperkenalkan (jadi fans tidak
+                    akan
+                    menyadari bahwa ia adalah kakek Luffy).</p>
+
+                <p class="lh-base">Ketika fakta ini terungkap, ia membuang topeng. Sejak saat itu ia hanya
+                    mengenakan
+                    masker setelah menerobos pintu masuk. Garp juga terlihat merokok cerutu. Garp dan Tsuru adalah
+                    dua
+                    wakil laksamana memiliki bahu-bantalan khusus; milik mereka adalah hitam dan merah sedangkan
+                    warna
+                    standar biru.</p>
+                <p class="lh-base">Ketika ia masih muda, dua puluh empat tahun yang lalu, rambut Garp dan jenggot
+                    masih
+                    hitam, dengan brewok nya mulai memutih. Dia juga mengenakan setelan breasted ganda lebih gelap
+                    dengan kemeja putih dan dasi merah, tapi dia sudah memiliki bekas luka di sekitar mata kirinya.
+                </p>
+                <p class="lh-base">Ketika ia masih kecil dan seorang marinir muda, Garp sangat mirip Luffy,
+                    meskipun
+                    ia
+                    tampaknya lebih berotot dibandingkan cucunya. Sebagai anak kecil, ia mengenakan kemeja tropis
+                    berkancing mirip
+                    dengan celana pendek. Dia terlihat memegang staf pipa dan membawa sebuah peti harta karun saat
+                    mengendarai harimau yang dijinakkan. Hal ini diketahui saat Garp punya bekas lukanya di mata
+                    kirinya, tapi ia telah memiliki dalam masa-masa kecilnya.</p>
+                <p class="lh-base">Dalam waktu luangnya, seperti ketika mengunjungi Ace atau Luffy pada hari
+                    libur,
+                    Garp
+                    lebih menyukai memakai sandal, satu dari berbagai macam kemeja tropis dan celana pendek berwarna
+                    terang. Dia juga terlihat dengan kaos, celana panjang hitam dan sepatu bot.</p>
+
+                <p class="h4 fw-bolder text-decoration-underline">KEPRIBADIAN</p>
+                <p class="lh-base">GARP menampilkan tingkat kecerdasan yang setara dengan Luffy; Namun, GARP tampaknya
+                    agak lebih pelupa dari cucunya. Karena temperamen panas, ia tidak dapat menerima alasan (dan ini
+                    sangat buruk dalam menciptakan dirinya sendiri) dan kadang-kadang suka menerapkan pandangannya pada
+                    hal-hal dengan tinjunya. GARP juga memiliki gaya tawa dirinya sendiri: ia menambahkan baik Bwa atau
+                    Wa sebelum bagian haha. </p>
+                <p class="lh-base">Dia, seperti cucunya, memiliki kegemaran ekstrim untuk makanan; dalam kasus donat dan
+                    biskuit beras. </p>
+                <p class="lh-base">Ia juga adalah sedikit dari orang yang nyentrik dengan pendekatan yang agak aneh
+                    untuk hal-hal; daripada masuk melalui pintu, ia merasa bahwa menerobos dinding adalah hal yang lebih
+                    keren yang harus dilakukan, dan akhirnya dia akan meminta bawahannya untuk memperbaiki kerusakan
+                    yang disebabkannya. Dia juga menolak dipromosikan menjadi Laksamana dalam beberapa kali, karena ia
+                    merasa menjadi wakil laksamana lebih baik (perlu dicatat bahwa menjadi seorang laksamana kemungkinan
+                    besar akan mengurangi kemampuannya untuk melakukan apa yang dia senang). </p>
+                <p class="lh-base">GARP adalah seseorang suportif hampir sepanjang waktu; ketika Shiki mengklaim bahwa
+                    Raja Bajak Laut mati di laut paling lemah adalah memalukan, GARP menjawab bahwa East Blue adalah
+                    simbol perdamaian. Ketika Ace masih kecil gelisah pada masa kecilnya, ia bertanya GARP apakah ia
+                    harus telah lahir; GARP mengatakan kepada Ace bahwa ia akan dapat menemukan jawabannya jika ia terus
+                    hidup. </p>
+                <p class="lh-base">Meskipun Ace adalah anak dari saingan paling tangguh nya, Gol D. Roger meminta GARP
+                    untuk menyembunyikan anaknya. Meskipun GARP ragu-ragu pada awalnya, setelah menyaksikan pengorbanan
+                    mulia ibu Ace, ia memenuhi keinginan Roger, dan mengadopsi Ace sebagai cucunya sendiri,
+                    memperlakukan dia sama seperti dia akan melakukannya terhadap Luffy (meski dengan gayanya yang
+                    keras). Ketika Ace hnya melihatnya hanya sebagai pengasuh, dia menegaskan bahwa Ace adalah cucunya
+                    dan ia adalah kakeknya. Ketika Ace sedang berada di dek eksekusi, ia bahkan duduk di samping Ace,
+                    berbicara dengan dia dan memberikan beberapa dukungan moral. </p>
+                <p class="lh-base">Meskipun GARP setia kepada Marinir dan ingin cucu-cucunya untuk bergabung dengan
+                    mereka, pada akhirnya ia memilih keluarga selama bertugas, dan mengikuti keadilan moral. Ironisnya
+                    meskipun apa yang GARP ingin kan dari cucu-cucunya, ia mempercayakan pengasuhan mereka kepada
+                    kriminal, bertentangan dengan moralitas keadilan. Tidak seperti rekan-rekan Marinir-nya, seperti
+                    sahabatnya Sengoku, GARP tidak percaya bahwa garis keturunan seseorang akan dianggap sebagai ancaman
+                    bagi dunia, dan siap untuk menerima orang tanpa memandang dari masa lalu mereka. </p>
+                <p class="lh-base">Namun, karena Luffy dan Ace tampaknya berbicara akrab tentang Dadan, dan GARP telah
+                    terlihat memanggilnya seorang teman, ada kemungkinan bahwa Dadan tidak begitu buruk karena dia
+                    terlihat apa adanya. Mungkin GARP percaya bahwa ia tidak pantas dihukum, meskipun hukum menuntut itu
+                    (mirip dengan bagaimana GARP menyelamatkan Ace saat lahir karena ia percaya Ace tidak layak mati).
+                </p>
+            </section>
+        </div>
+    </div>
+    </div>
+
+
+    <hr>
+    <!-- footer-->
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,64L40,85.3C80,107,160,149,240,176C320,203,400,213,480,197.3C560,181,640,139,720,122.7C800,107,880,117,960,149.3C1040,181,1120,235,1200,250.7C1280,267,1360,245,1400,234.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+
+        <p class="text-center" style="background-color: #0099ff;color: #fff;margin-bottom: 0rem;margin-top: -2px;"><i
+                class="far fa-compass fa-spin"></i> <b><u>M I R Site.</i></u></b> <i class="fas fa-fan fa-spin"></i></p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <a href="#" class="ignielToTop"></a>
+</body>
+
+</html>
